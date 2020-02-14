@@ -1,0 +1,57 @@
+<meta charset="utf-8"/>
+<head>
+    <title>Ordem Servico</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body>
+
+	<!-- Cabeçalho da página -->
+    <header>
+      	<nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1" style="font-weight: bold;">Cadastrar Nova de Ordem de Serviço</span>
+        </nav>
+	</header>
+	
+	<!-- Listagem das ordens de venda -->
+    <section>
+    	<div class="container"  style="width: 60%; padding-bottom: 30px;">
+	    	<br>
+	    	<form method="post">
+	          <div class="form-group">
+			    <label for="exampleInputEmail1">Nome completo:</label>
+			    <input type="text" class="form-control" name="nome" >
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEnd">Endereço:</label>
+			    <input type="text" class="form-control" name="endereco" >
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Telefone:</label>
+			    <input type="number" class="form-control" name="telefone">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">E-mail:</label>
+			    <input type="email" class="form-control" name="email" placeholder="name@exemplo.com">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Tipo de produto:</label>
+			    <input type="text" class="form-control" name="tipo_produto" id="exampleFormControlInput1">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Marca:</label>
+			    <input type="text" class="form-control" name="marca" id="exampleFormControlInput1">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlTextarea1">Descrição:</label>
+			    <textarea class="form-control" id="exampleFormControlTextarea1" name="descricao" rows="5"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Salvar</button>
+			</form>  			
+    	</div>
+    </section>
+
+</body>
+</html>
